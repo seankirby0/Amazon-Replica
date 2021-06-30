@@ -1,6 +1,4 @@
  .signin{
-        background: white;
-        height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -8,10 +6,7 @@
 
 .signin_container{
     width: 450px;
-    height: fit-content;
-    display: flex;
     flex-direction: column;
-    border-radius: 7px;
     border: 1px solid lightgray;
     padding: 15px;
 }
@@ -54,12 +49,12 @@ a.int:hover{
     margin-top: 10px;
 }
 
-.signin_container >h5{
+.signin_container >h2{
     font-weight: 500;
     margin-bottom:20px;
 }
 
-.signin_container > form >h5{
+.signin_container > form >h2{
     margin-bottom: 5px;
 }
 
